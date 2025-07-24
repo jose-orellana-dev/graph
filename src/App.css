@@ -1,0 +1,14 @@
+.En-Tiempo-bar { 
+  fill: #00FF00 !important;    /* Verde */
+}
+
+.Atrasado-bar { 
+  fill: #E69500 !important;    /* Rojo */
+}
+
+.No-Iniciado-bar { 
+  fill: #d1d5db !important;    /* Verde */
+}
+.Finalizado-bar { 
+  fill: #3b82f6 !important;    /* Verde */
+}
