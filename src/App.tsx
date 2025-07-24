@@ -126,7 +126,7 @@ const readExcelFile = (file: File): Promise<ExcelData[]> => {
   <div className="flex flex-col md:flex-row gap-6">
     {/* Gantt: 3/4 en md+ */}
     {/* Pie chart: 1/4 en md+ */}
-    <DougnoutChart data={dataSelected} title="Etapas de Proyectos"/>
+    <DougnoutChart data={dataSelected} title="Estado de Proyectos"/>
     <div className="w-full md:w-3/4">
       <DrillDownGantt projects={ArrayProjects} />
     </div>
